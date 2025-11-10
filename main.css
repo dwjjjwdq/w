@@ -1,38 +1,38 @@
 body {
-    display : flex;
-    background-color : blue;
     margin : 0px;
     padding : 0px;
+    background-color : blue;
     color : white;
-    font-family : 'KorailDdonggeunGothic';
+}
 
+.box-1 {
+    display : flex;
+    width : 120px;
+    height : 64px;
+    background-color : black;
+    color : green;
+    justify-content: left;
+    align-items : flex-start;
+    border : 1px solid white;
+}
+
+.box-2 {
+    display : flex;
+    width : 120px;
+    height : 64px;
+    background-color : black;
+    color : green;
+    justify-content: left;
     align-items : center;
-    flex-direction : column;
-    justify-content: center;
-    height : 100vh;
+    border : 1px solid white;
 }
-@font-face {
-    font-family: 'KorailDdonggeunGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicLight.woff2') format('woff2');
-    font-weight: 300;
-    font-display: swap;
-}
-
-.big.test {
-    font-size : 64px;
-}
-
-.mid.test {
-    font-size : 32px;
-}
-
-.small.test {
-    font-size : 16px;
-}
-header {
-  display: flex;
-  justify-content: flex-end; /* 오른쪽 정렬 */
-  width: 100%;
-  padding: 10px 20px; /* 상단 여백 */
-  box-sizing: border-box;
+.box-3 {
+    display : flex;
+    width : 120px;
+    height : 64px;
+    background-color : black;
+    color : green;
+    justify-content: left;
+    align-items : flex-end;
+    border : 1px solid white;
 }
