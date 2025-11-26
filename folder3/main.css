@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: blue;
+    color: white;
+    font-family: 'KorailDdonggeunGothic';
+}
+@font-face {
+    font-family: 'KorailDdonggeunGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KorailRoundGothicLight.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    align-items: center;       /* 세로 가운데 정렬 */
+    padding: 16px;
+    background-color: yellow;
+    color: black;
+}
+
+footer {
+    display : flex;
+    padding : 16px;
+    background-color : black;
+    color : white;
+}
+
+main {
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    justify-content : center;
+    align-items: center; 
+}
+
+.title {
+    font-size: 64px;
+}
+
+.menu-item {
+    font-size : 32px;
+}
+
+.select {
+    background-color: black;
+    color: white;
+}
+.hide {
+    display: none;
+}
