@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="top-bar">
+    <a href="#">Gmail</a>
+    <a href="#">이미지</a>
+    <button class="toggle-mode" onclick="toggleDarkMode()">🌙 다크 모드</button>
+  </div>
+
+  <div class="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+         alt="Google 로고" width="272" height="92">
+  </div>
+
+  <div class="search-box">
+    <input type="text" class="search-input" id="searchInput" placeholder="Google 검색 또는 URL 입력">
+  </div>
+
+  <div class="buttons">
+    <input type="button" value="Google 검색" onclick="searchGoogle()">
+    <input type="button" value="I'm Feeling Lucky" onclick="luckySearch()">
+  </div>
+
+  <footer>
+    <div>대한민국</div>
+    <div>
+      <a href="#">광고</a> · 
+      <a href="#">비즈니스</a> · 
+      <a href="#">검색의 원리</a>
+    </div>
+    <div>
+      <a href="#">개인정보처리방침</a> · 
+      <a href="#">약관</a> · 
+      <a href="#">설정</a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
